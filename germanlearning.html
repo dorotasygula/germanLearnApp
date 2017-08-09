@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<title>To do list application with JavaScript</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<h1>Learn German</h1>
+		<div id="buttonsTitle"> <h1> Add items: <h1> </div>
+		<div style="clear:both;">
+		<form id="todoForm">
+			<input type="text" placeholder="Enter a new word" id="todoInput">
+			<button type="button" onclick="todoList()" class="cart-button">To learn list</button>
+			<button type="button" onclick="toLearnList()" class="cart-button">Already learned list </button>
+		</form>
+
+		<div id="list1"> <ul id="toLearnList"> <h3> To learn </h3> </ul> </div> 
+		<div id="list2"> <ul id="alreadyLearnedList"> <h3> Already learned </h3> </ul> </div>
+
+
+		<script src="todo.js"></script>
+	</body>
+</html>
